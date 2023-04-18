@@ -1,0 +1,7 @@
+for(let i=0; i < 11;i++){
+    console.log(i)
+}
+
+// Major take Aways:
+//      -> you can use const or var instead of let; mostly const and let are preffered because they have scope
+//      -> you can also create a function for above code and later call that function
