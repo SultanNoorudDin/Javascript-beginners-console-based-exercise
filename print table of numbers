@@ -1,0 +1,9 @@
+let num1 =0, num2=0;
+
+num1 = prompt("print table of which number?  ");
+
+num2 = prompt("till how many numbers?  ");
+
+for (let i=1 ; i<=num2; i++){
+    console.log(`${num1} `+ "X"+ `${i}` +"=" + `${num1*i}`);
+}
