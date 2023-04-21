@@ -1,0 +1,7 @@
+let a = prompt("enter value in Km to miles : ")
+Number(a)
+let b = function miles(a){
+    return a * 0.621371;
+}
+
+console.log(b(a))
