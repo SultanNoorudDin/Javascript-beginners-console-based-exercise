@@ -1,0 +1,30 @@
+
+//  ------------------    input command function  ----------------
+
+let a;
+
+function input_num(){
+    a = prompt("how many number you wanna enter?    ");
+Number(a);
+for (let i = 0; i <a; i++){
+    arr[i] = prompt("enter number "+ (Number(i)+1) +" : ");
+}
+}
+
+//    --------------   sum function    ----------------------------
+
+function sum(){
+    arr = arr.map(function(str){    // converts string array to int array
+    return parseInt(str)
+});
+for (let i =0;i< a; i++){
+    b+=arr[i]; // makes sum of all elements
+}
+}
+
+// -----------------      main        -----------------------------
+let arr = [], b=0;
+input_num();
+sum();
+
+console.log(b)
