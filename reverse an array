@@ -1,0 +1,11 @@
+let arr =[];    // let an array
+
+let a = prompt("how many values ?  ");
+
+for (let i=0; i<a; i++){
+    arr[i]= prompt("enter value:  ");   //take values
+}
+
+
+console.log("actual array : "+ arr)
+console.log("reversed array : "+ arr.reverse());    //reverse function
