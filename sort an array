@@ -1,0 +1,12 @@
+let arr = []
+
+// ask user for input
+
+let b = Number(prompt("declare size of array ? "));
+
+
+for(let i=0; i<b; i++){
+    arr[i]= Number(prompt("enter value : "));   // store user value in array
+}
+arr.sort();   //in built sort function of js ( i could create other bubble sort,merge sort etc functions,but imma keep things simple)
+console.log(arr)
