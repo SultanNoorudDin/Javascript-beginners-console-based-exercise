@@ -1,0 +1,11 @@
+//Remove the spaces found in a string
+
+let array=prompt("enter a word or sentence : ")
+      
+      let x = array.length
+      for (x; x--;) {
+         if ( array[x] == ' ' ){
+            array=array.replace(' ','');
+         }
+      }
+console.log(array)
