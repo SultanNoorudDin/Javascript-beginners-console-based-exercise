@@ -1,0 +1,14 @@
+//Return a Boolean if a number is divisible by 10
+
+function tell(x){
+    if (a%10 == 0){
+    b=true;
+    return b;
+}
+else{
+    return b;
+}
+}
+let a = Number(prompt("enter a number only : "));
+let b= false;
+console.log(tell(a));
